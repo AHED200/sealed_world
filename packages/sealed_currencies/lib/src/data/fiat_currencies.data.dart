@@ -2244,8 +2244,7 @@ class FiatSar extends FiatCurrency {
       : super(
           code: "SAR",
           name: "Saudi Riyal",
-          symbol: "ر.س",
-          alternateSymbols: const ["SR", "﷼"],
+          symbol: "",
           htmlEntity: "&#xFDFC;",
           codeNumeric: "682",
           namesNative: const ["ريال سعودي"],

@@ -25,7 +25,11 @@ environment:
   sdk: ^3.6.0
 
 dependencies:
-  l10n_languages: ^1.0.0
+  l10n_languages: 
+    git:
+      url: https://github.com/AHED200/sealed_world.git
+      path: packages/l10n_languages
+
 
 dev_dependencies:
   _sealed_world_tests:

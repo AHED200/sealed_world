@@ -25,7 +25,11 @@ environment:
   sdk: ^3.6.0
 
 dependencies:
-  l10n_currencies: ^1.0.0
+  l10n_currencies:
+    git:
+      url: https://github.com/AHED200/sealed_world.git
+      path: packages/l10n_currencies
+
   sealed_languages: 
     git:
       url: https://github.com/AHED200/sealed_world.git

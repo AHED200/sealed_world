@@ -17,8 +17,10 @@ dependencies:
   rw_git: ^1.0.3
   sealed_countries:
     path: ../packages/sealed_countries
-  sealed_currencies: any
-  sealed_languages: any
+  sealed_currencies:
+    path: ../packages/sealed_currencies
+  sealed_languages: 
+    path: ../packages/sealed_languages
   select_annotation: ^0.2.0
   yaml: ^3.1.3
 

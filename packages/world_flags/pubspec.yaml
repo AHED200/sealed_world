@@ -23,7 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sealed_countries: any
+  sealed_countries:
+    git:
+      url: https://github.com/AHED200/sealed_world.git
+      path: packages/sealed_countries
 
 dev_dependencies:
   _sealed_world_tests:

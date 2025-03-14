@@ -26,7 +26,10 @@ environment:
 
 dependencies:
   l10n_currencies: ^1.0.0
-  sealed_languages: ^2.1.0
+  sealed_languages: 
+    git:
+      url: https://github.com/AHED200/sealed_world.git
+      path: packages/sealed_languages
 
 dev_dependencies:
   _sealed_world_tests:
